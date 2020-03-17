@@ -2,6 +2,10 @@
 /* -------------------- GLOBAL DEFAULTS */
 body {
     background-color: rgb(82, 219, 173);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: teal;
+    font-size: 18px;
+    line-height: 1.3;
 }
 
 img {
