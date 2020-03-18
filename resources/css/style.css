@@ -1,11 +1,13 @@
 /* -------------------- VARIABLES */
 /* -------------------- GLOBAL DEFAULTS */
 body {
-    background-color: rgb(82, 219, 173);
+    background-color:white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: teal;
+    color:black;
     font-size: 18px;
     line-height: 1.3;
+
+    box-sizing: border-box;
 }
 
 img {
@@ -15,7 +17,7 @@ img {
 h1 {
     font-family: 'Sen', sans-serif;
     font-size: 50px;
-    color: rgb(80, 29, 80);
+    color:#68c187;
 }
 h2,
 h3 {
@@ -41,7 +43,8 @@ p {
 
 /* -------------------- HEADER */
 header {
-    background-color: royalblue;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 /* -------------------- NAVIGATION */
 /* -------------------- FOOTER */
