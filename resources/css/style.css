@@ -35,11 +35,18 @@ h2 {
 }
 h3 {
     font-family: 'Inter', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
+    color:#68c187;
+}
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
     color:#68c187;
 }
 p {
-    color: rgb(57, 64, 94);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
 
 }
 /* -------------------- LAYOUTS */
@@ -55,9 +62,24 @@ p {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+
+    
 }
 
+.contentgoals {
+    background-color: #D11E4D;
 
+    text-align: center;
+
+    padding-left: 3%;
+    padding-right: 3%;
+
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
 /* -------------------- HEADER */
 header {
     padding-top: 50px;
@@ -71,8 +93,50 @@ header {
 /* -------------------- NAVIGATION */
 /* -------------------- FOOTER */
 footer{
-    background-color: seagreen;
+    border: #4B9FD8;
+    border-width: medium;
+    border-style: ridge;
 }
 /* -------------------- MODULES */
 
+.left {
+    float: left;
+    padding: 0 20px 20px 0;
+   }
+.right{
+    float: right;
+    padding: 0 2opx 20px 0;
+}
 
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #D11E4D; 
+    border-radius: 3px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color: #4B9FD8;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    border: 5px solid #68c187;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
