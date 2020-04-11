@@ -35,7 +35,7 @@ img {
 /* -------------------- HEADINGS AND TYPE */
 h1 {
     font-family: 'Inter', sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     color:#68c187;
 }
 h2 {
@@ -93,8 +93,8 @@ p {
 }
 /* -------------------- HEADER */
 header {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
         border: #4B9FD8;
         border-width: medium;
         border-style: ridge;
@@ -110,6 +110,39 @@ header a {
     max-height: 300px;
 }
 /* -------------------- NAVIGATION */
+ul {
+    position: sticky;
+     top: 0;
+     width: 100%;
+     height: 20%;
+    list-style-type: none;
+    margin: 100;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D11E4D;
+  }
+  
+  mi {
+    float: left;
+    border-right: 3px solid #f1f1f1;
+  }
+  
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  mi a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+
 /* -------------------- FOOTER */
 footer{
     border: #4B9FD8;
