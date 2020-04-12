@@ -35,11 +35,18 @@
         </section>
       </header>
           <ul>
-        <mi><a href="default.asp">Home</a></mi>
-            <mi><a href="aboutme.asp">About me</a></mi>
-            <mi><a href="portfolio.asp">Portfolio</a></mi>
-            <mi><a href="previouswork.asp">Previous Work</a></mi>
-            <mi><a href="contact.asp">Contact</a></mi>
+        <mi><a href="home.html"><h5>Home</h5></a></mi>
+            <mi><a href="aboutme.html"><h5>About me</h5></a></mi>
+            <mi><a href="portfolio.html"><h5>Portfolio</h5></a></mi>
+            <mi class="dropdown">
+            <a href="previouswork.html"><h5>Previous Work</h5></a>
+             <div class="dropdown-content">
+              <a href="buisnesswork.html"><h5>Buisness Work</h5></a>
+              <a href="personalwork.html"><h5>Personal Work</h5></a>
+            </div>
+            <!--I attempted to do a drop down menu but because of how custom my menu is the dropdown menu got way too confusing to try and program so I decided to stick to my original idea-->
+            </mi>
+            <mi><a href="contact.html"><h5>Contact</h5></a></mi>
           </ul>
 
         <main>
@@ -66,8 +73,7 @@
 
                <p><ins>Click</ins> on either <strong>channel logos</strong> to be taken to my main YouTube channels  
                 </p>
-               
-              <section= class="content">
+                <section= class="content">
                 <img src="resources/images/Border.png">
                 <h3>Motivations</h3>
                 
@@ -85,78 +91,7 @@
                   <p>I want to one day stand on the stage of VidCon and say ‘I did it, I’m here which means you guys can be here as well’</p>
                   <p>I want to express myself through my work</p>
                   <p>I want to be ‘Ania da Peasant’ and show my progress from the ground up</p>
-
-                <img src="resources/images/Border.png">
-                <h2>Portfolio<h2>
-                 <p>Here I will be demonstrating the work that I have done as a voice actress & video editing
-                 </p>
-                 <h3> Voice Acting </h3>
-                 <p>All recordings were done with a MXL TempoKR USB Condenser Microphone and recorded with the program Audacity.</p>
-                 <video width="420" height="340" controls >
-                  <source src="resources/videos/ADP_Voice Acting (Demo-Portfolio).mp4" type="video/mp4" >
-                  <source src="movie.ogg" type="video/ogg">
-                  Your browser does not support the video tag.</video>
-
-                  <h3> Video Editing </h3>
-                  <p>All videos were edited using Adobe Premier Pro with some use of Adobe After Effects</p>
-                  <video width="420" height="340" controls>
-                  <source src="resources/videos/ADP_Video Editing (Demo-Portfolio).mp4" type="video/mp4" >
-                  <source src="movie.ogg" type="video/ogg">
-                  Your browser does not support the video tag. </video>
-
-                  <!--I tried doing an image gallery but it failed so I got rid of the code and decided not to jump ahead too much-->
-                  <img src="resources/images/Border.png">
-                  
-                  <h2>Common Questions & Enquiry Form</h2>
-            <details>
-              <summary>How can I contact you for buisness enquires?</summary>
-              <p>
-                <a href="mailto:aniadapeasant@gmail.com">You can send me an email </a> or use the contact form at the bottom of the page
-              </p>
-                
-            </details>
-
-            <details>
-              <summary>What socials do you have?</summary>
-              <p>
-                I use <a href="https://twitter.com/AniadaPeasant">Twitter,</a><a href="https://www.instagram.com/ania_da_peasant/">Instagram,</a><a href="https://www.facebook.com/AniadaPeasant/">and Facebook.</a>
-              </p>
-            </details>
-
-            
-
-            <div class="container">
-              <form action="action_page.php">
-            
-                <label for="fname">Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-            
-                <label for="country">Enquiry</label>
-                <select id="Enquiry" name="Enquiry">
-                  <option value="General">General</option>
-                  <option value="Sponsership">Sponsership</option>
-                  <option value="Request">Request</option>
-                  <option value="Other">Other</option>
-                </select>
-            
-                <label for="Message">Message</label>
-                <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
-            
-                <input type="submit" value="Submit">
-            
-              </form>
-            </div>
-            <p>
-               <a href="#">Click here</a>, to go back to the top of the page.
-            </p>
-        
-          </section>
-          </main>
-          </section>
-          
-
-    </body>
+              
 <footer>
             <section class="content">
           
