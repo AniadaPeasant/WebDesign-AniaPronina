@@ -35,7 +35,7 @@ img {
 /* -------------------- HEADINGS AND TYPE */
 
 a {
-    color: #f1f1f1;
+    color:#4B9FD8;
 }
 h1 {
     font-family: 'Inter', sans-serif;
@@ -64,6 +64,14 @@ h5 {
     font-size: 10px;
 }
 
+h6 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    color: #4B9FD8;
+}
+
+
+
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -79,7 +87,7 @@ p {
 
     padding-left: 3%;
     padding-right: 3%;
-
+    padding-bottom: 3%;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -185,6 +193,9 @@ footer{
     border: #4B9FD8;
     border-width: medium;
     border-style: ridge;
+    background-color: white;
+    text-align: center;
+
 }
 
 /* BUTTONS */ 
@@ -291,3 +302,36 @@ input[type=text], select, textarea {
         grid-template-columns: 1fr 1fr;     
     }
 }
+
+/* -------------------- BLOG */
+.leftcolumn {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-width: medium;
+    border-color: #4B9FD8;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rightcolumn {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .card {
+    background-color: #ffffff;
+    padding: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    border: #4B9FD8;
+    border-width: medium;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fakeimg {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
